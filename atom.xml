@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Gesko</title>
- <link href="https://p0wex.github.io/Gesko/atom.xml" rel="self"/>
- <link href="https://p0wex.github.io/Gesko/"/>
- <updated>2022-06-04T05:57:40+02:00</updated>
- <id>https://p0wex.github.io</id>
+ <title>Zelenyy's Blog</title>
+ <link href="https://zelenyy.info/atom.xml" rel="self"/>
+ <link href="https://zelenyy.info/"/>
+ <updated>2022-06-04T16:09:30+10:00</updated>
+ <id>https://zelenyy.info</id>
  <author>
-   <name>gesko</name>
-   <email>your-email@email.com</email>
+   <name>Patrick Fennell</name>
+   <email>patrickfennell@gmail.com</email>
  </author>
 
  
  <entry>
    <title>CSS hacks you may not know</title>
-   <link href="https://p0wex.github.io/Gesko/2014/05/12/css-hacks-you-may-not-know"/>
-   <updated>2014-05-12T00:00:00+02:00</updated>
-   <id>https://p0wex.github.io/2014/05/12/css-hacks-you-may-not-know</id>
+   <link href="https://zelenyy.info/2014/05/12/css-hacks-you-may-not-know"/>
+   <updated>2014-05-12T00:00:00+10:00</updated>
+   <id>https://zelenyy.info/2014/05/12/css-hacks-you-may-not-know</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
