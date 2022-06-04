@@ -7,21 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>
-      {% if page.tag or page.title %}
-        {% if page.tag %}
-          {{ page.tag | escape }}
-        {% else %}
-          {{ page.title | escape }}
-        {% endif %}
-        -
-      {% endif %}
-      {% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
-        Page {{ paginator.page }} of {{ paginator.total_pages }} -
-      {% endif %}
-      {{ site.title | escape }}
-      {% unless page.tag or page.title %}
-        - {{ site.description | escape }}
-      {% endunless %}
+      {{ site.site }}
     </title>
   
   
