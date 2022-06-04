@@ -1,29 +1,29 @@
-site: Gesko
-title: Gesko
-greetings: Hi 👋
+site: Zelenyy's Blog
+title: Zelenyy's Blog
+greetings: Welcome to Zel's Blog
 description: >-
-  just a minimalist, personal blog
+  Welcome to my blog, filled with silly little thoughts and sillier littler personal projects
 lang: en-US
-timezone:  Europe/Rome
-repo: https://github.com/p0wex/Gesko # site repo [optional]
+timezone:  Australia/Sydney
+repo: https://github.com/mrmelonson/zelenyy_blog # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
-discus-identifier: powex # replace with your disqus shortname
+discus-identifier: zel # replace with your disqus shortname
 
 author:
-  name: gesko
-  bio: just a minimalist, personal blog
+  name: Patrick Fennell
+  bio: A 20yr computer science student studying at UTS
   userpicture: 
-  username: # general username
-  github: # github username
-  twitter: # twitter username
-  email: your-email@email.com # email adress
+  username: Zelenyy
+  github: https://github.com/mrmelonson
+  twitter: https://twitter.com/Zelenyy_is_cool
+  email: patrickfennell@gmail.com # email adress
 
 # Font Settings
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
 # URL settings
-url: "https://p0wex.github.io" # Domain Name of host. [username].github.io for github pages
-baseurl: "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+url: "https://zelenyy.info" # Domain Name of host. [username].github.io for github pages
+baseurl: "" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
 
 # local
