@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2014/05/12/css-hacks-you-may-not-know</loc>
-<lastmod>2014-05-12T00:00:00+10:00</lastmod>
+<loc>http://localhost:4000/2022/06/05/first-post</loc>
+<lastmod>2022-06-05T00:00:00+10:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/tag/security/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/tag/coding/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/css/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tag/jekyll/</loc>
@@ -20,12 +26,6 @@
 <loc>http://localhost:4000/tag/typography/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tag/security/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tag/css/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/tag/netlify/</loc>
 </url>
 <url>
@@ -33,5 +33,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/</loc>
 </url>
 </urlset>
