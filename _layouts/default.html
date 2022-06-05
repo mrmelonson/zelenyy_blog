@@ -26,6 +26,7 @@ layout: compress
   
 
   <script>
+    /*
     function setTheme(theme) {
       if (theme === "dark") {
         document.documentElement.setAttribute('data-theme', 'dark');
@@ -39,13 +40,16 @@ layout: compress
         document.getElementById("theme-toggle").classList.remove('sun');
       }
     }
+    */
 
-    let theme = localStorage.getItem('theme');
+    //let theme = localStorage.getItem('theme');
 
-    theme = theme || (window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' : 'light');
-
-    setTheme(theme);
-
+    //theme = theme || (window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' : 'light');
+    
+    document.documentElement.setAttribute('data-theme', 'light');
+    //setTheme(theme);
+    
+    /*
     function modeSwitcher() {
       let currentMode = document.documentElement.getAttribute('data-theme');
 
@@ -55,6 +59,7 @@ layout: compress
         setTheme('dark');
       }
     }
+    */
   </script>
 
 
@@ -65,8 +70,8 @@ layout: compress
   <div class="social-footer-icons">
     <a href="{{ site.author.github}}" title="Github!" target="_blank"
       rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a>
-    <a href="{{site.url}}{{ site.baseurl }}/atom.xml" title="Feed RSS" target="_blank" rel="noopener noreferrer"><i
-        class="fa fa-rss" aria-hidden="true"></i></a>
+    <a href="{{ site.repo }}" title="Browse the code!" target="_blank" rel="noopener noreferrer"><i
+        class="fa fa-code" aria-hidden="true"></i></a>
     <a href="{{site.author.twitter}}" title="Twitter!" target="_blank" rel="noopener noreferrer"><i
         class="fa fa-twitter" aria-hidden="true"></i></a>
   </div>
