@@ -1,8 +1,11 @@
 site: Zelenyy's Blog
 title: Zelenyy's Blog
-greetings: Hello!
+greetings: Pat's Blog
 description: >-
-  Welcome to my blog, filled with silly little thoughts and sillier littler personal projects
+  Welcome to my blog, filled with silly little thoughts and sillier littler personal projects!<br>
+
+  I know, pretty empty at the moment but hopefully it'll look better once I write some stuff.
+
 lang: en-US
 timezone:  Australia/Sydney
 repo: https://github.com/mrmelonson/zelenyy_blog # site repo [optional]
