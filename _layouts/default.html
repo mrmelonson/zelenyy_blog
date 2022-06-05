@@ -5,17 +5,6 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
- <!-- Global site tag (gtag.js) - Google Analytics -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-3EP7KLCYVP"></script>
- <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag() { dataLayer.push(arguments); }
-   gtag('js', new Date());
-
-   gtag('config', 'G-3EP7KLCYVP');
- </script>
-
-
 
 
 <body>
@@ -26,47 +15,13 @@ layout: compress
   
 
   <script>
-    /*
-    function setTheme(theme) {
-      if (theme === "dark") {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        window.localStorage.setItem('theme', 'dark');
-        document.getElementById("theme-toggle").classList.add('sun');
-        document.getElementById("theme-toggle").classList.remove('moon');
-      } else {
-        document.documentElement.setAttribute('data-theme', 'light');
-        window.localStorage.setItem('theme', 'light');
-        document.getElementById("theme-toggle").classList.add('moon');
-        document.getElementById("theme-toggle").classList.remove('sun');
-      }
-    }
-    */
-
-    //let theme = localStorage.getItem('theme');
-
-    //theme = theme || (window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' : 'light');
-    
     document.documentElement.setAttribute('data-theme', 'light');
-    //setTheme(theme);
-    
-    /*
-    function modeSwitcher() {
-      let currentMode = document.documentElement.getAttribute('data-theme');
-
-      if (currentMode === "dark") {
-        setTheme('light');
-      } else {
-        setTheme('dark');
-      }
-    }
-    */
   </script>
 
 
-
-</body>
-
 <footer class="social-footer">
+  <p>{{ site.author.name }} || {{ site.author.username }}</p>
+  <a href="mailto:{{ site.email }}">{{ site.author.email }}</a>
   <div class="social-footer-icons">
     <a href="{{ site.author.github}}" title="Github!" target="_blank"
       rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -74,8 +29,11 @@ layout: compress
         class="fa fa-code" aria-hidden="true"></i></a>
     <a href="{{site.author.twitter}}" title="Twitter!" target="_blank" rel="noopener noreferrer"><i
         class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="{{site.author.linkedIn}}" title="Linked In!" target="_blank" rel="noopener noreferrer"><i
+          class="fa fa-linkedin" aria-hidden="true"></i></a>
   </div>
 </footer>
+</body>
 
 
 {% if page.url == '/' %}
