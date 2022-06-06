@@ -20,7 +20,7 @@ I'll start with the router I'm using. Its nothing special, a TP-Link Archer VR40
 
 ![SG500-28 Managed Switch](/img/2022-06-06-Homelab-Part1-Hardware/switch.jpg)
 
-My newest addition to my network, a used Cisco SG500-28 managed switch. It boasts 24 gigabit RJ-45 ports and 4  5G SFP ports. I bought it mainly because I want to start experimenting with setting up and using a managed switch and I intend to use VLans to experiment with DMZs and creating other separate networks and 24 ports will be more than enough ports to do so. As for configuration, I haven't done much other than changing the default password and assigning the DNS record "dogpark.dognet".
+My newest addition to my network, a used Cisco SG500-28 managed switch. It boasts 24 gigabit RJ-45 ports and 4  5G SFP ports. I bought it mainly because I want to start experimenting with setting up and using a managed switch and I intend to use VLans to experiment with DMZs and creating other separate networks and 24 ports will be more than enough ports to do so. As for configuration, I haven't done much other than changing the default password.
 
 ## Raspberry Pi 4
 
