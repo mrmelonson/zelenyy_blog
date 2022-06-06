@@ -23,17 +23,22 @@ layout: default
 <section>
 
   <nav class="post-nav">
-    {% if page.previous %}
     <a class="post-nav-item post-nav-prev" href="{{ page.previous | relative_url }}">
+      {% if page.previous %}
       <div class="nav-arrow">Previous</div>
       <span class="post-title">{{ page.previous.title }}</span>
+      {% endif %}
     </a>
-    {% endif %} {% if page.next %}
+    <a class="post-nav-item post-nav-home" href="{{ site.url }}{{ site.baseurl }}">
+      <div class="nav-arrow">Home</div>
+      <span class="post-title">Back to home</span>
+    </a>
     <a class="post-nav-item post-nav-next" href="{{ page.next | relative_url }}">
+      {% if page.next %}
       <div class="nav-arrow">Next</div>
       <span class="post-title">{{ page.next.title }}</span>
+      {% endif %}
     </a>
-    {% endif %}
 
   </nav>
 </section>
