@@ -44,6 +44,6 @@ I have a tradfri hub from Ikea so all my smart lights can work. I use it because
 
 ## Conclusion
 
-So that concludes the tour of the hardware that makes up my home network. In the next part I will talk about the operating systems I use and the services I host on my network. Until then, enjoy this picture of my networking setup. You might also notice the blue computer case and another raspberry pi, the case is empty and the other raspberry pi is for a future project
+So that concludes the tour of the hardware that makes up my home network. In the next part I will talk about the operating systems I use and the services I host on my network. Until then, enjoy this picture of my network setup. You might also notice the blue computer case and another raspberry pi, the case is empty and the other raspberry pi is for a future project
 
 ![Custom built server](/img/2022-06-06-Homelab-Part1-Hardware/setup.jpg)
