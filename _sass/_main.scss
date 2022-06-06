@@ -301,6 +301,10 @@ time {
 	margin: 0px;
 }
 
+.intro_main {
+  min-height: 92vh;
+}
+
 main {
 	display: flex;
 	max-width: 47rem;
@@ -320,10 +324,8 @@ main {
 
 .social-footer {
   padding: 1rem;
-  position: fixed;
+  position: absolute;
   text-align: center;
-  left: 0;
-  bottom: 0;
   width: 100%;
   color: #92B359;
   text-align: center;
@@ -427,12 +429,18 @@ color: #333;
     text-decoration: none;
     box-sizing: border-box;
 
-    &:nth-child(odd) {
+    &:nth-child(1) {
       padding-left: 0;
       padding-right: 20px;
     }
 
-    &:nth-child(even) {
+    &:nth-child(2) {
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    &:nth-child(3) {
       text-align: right;
       padding-right: 0;
       padding-left: 20px;
