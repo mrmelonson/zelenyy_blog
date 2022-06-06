@@ -24,7 +24,7 @@ this leads onto my next point...
 
 Great question reader! The type of content I want to put on here will mainly focus on tech, cybersecurity, networking, programming, etc. This is because I do want to use this blog to extend my CV, and me writing about stuff like my home network and how I configure servers securely might just highlight me a little bit better in the crowd of applicants.
 
-As mentioned as well, I want to put my projects on here. Some projects won’t be able to be hosted on this website but the ones that can be, will be. Again, this is mainly for the whole *I want a job look at me~* thing but also because some of the projects I've made are interesting and I would like to share them with the world.
+As mentioned as well, I want to put my projects on here. Some projects won’t be able to be hosted on this website but the ones that can be, will be. Again, this is mainly for the whole *I want a job look at me* thing but also because some of the projects I've made are interesting and I would like to share them with the world.
 
 Though all that being said, I don't not want to talk about other things, and I might slide a few non-techy posts onto here if they seem kinda interesting.
 
