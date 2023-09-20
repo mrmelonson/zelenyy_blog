@@ -8,13 +8,13 @@ summary: Home Networking Part 3 - VPN, Access Points and Routers
 
 Welcome back to another episode of me boasting about my home networking setup! It's been a while since the last part and I’m glad to announce that there have been some relatively significant changes to how its organised. Firstly, I shall present my updated network diagram, then continue on to the first item.
 
-![Network diagram](/img/2022-08-12-Homelab-Part3-VPN-adventures/Network.png)
+![Network diagram](/img/2022-08-24-Homelab-Part3-VPN-adventures/Network.png)
 
 ## Server Cabinet
 
 I'll start with the most visually different update to my setup which is the addition of a 24U server cabinet. 
 
-![Server Cabinet](/img/2022-08-12-Homelab-Part3-VPN-adventures/server_cabinet.jpg)
+![Server Cabinet](/img/2022-08-24-Homelab-Part3-VPN-adventures/server_cabinet.jpg)
 
 
 
@@ -112,7 +112,7 @@ The next item on the agenda is a new router, you may have even seen it in the pr
 
 
 
-![omada er605 router](/img/2022-08-12-Homelab-Part3-VPN-adventures/router.jpg)
+![omada er605 router](/img/2022-08-24-Homelab-Part3-VPN-adventures/router.jpg)
 This was a bit of an upgrade from my old router and allows some more advanced configurations such as VLANs and VPNs. As well as those features, I can also set up the Omada software on a server and monitor my network through that. But the main reason I bought the router was because I wanted my router closer to my network so I could actually do VLANs with multiple patch cables going into my switch instead of running separate longer cables around my apartment to my old router.
 
 ## VPN
@@ -131,7 +131,7 @@ However, there were some more issues with OpenVPN I needed to iron out. Because 
 
 The last thing I added since the last update was an access point. 
 
-![DLink Viper 2600](/img/2022-08-12-Homelab-Part3-VPN-adventures/dlink_ap.jpg)
+![DLink Viper 2600](/img/2022-08-24-Homelab-Part3-VPN-adventures/dlink_ap.jpg)
 
 I added this for 2 reasons, the first is I wanted access point because I bought a VR headset that can use airlink which works over Wi-Fi, And the second reason was that after I converted my old router into a media converter this was the only access point. Again, the main question you may ask is "What was wrong with your old router?". Firstly, as I literally just said, my old router is now just a media converter. The second reason is my old router had a combined link rate of 1200Mbit/s which is usually distributed to 300 on 2.4GHz and 867 on 5GHz. My new router is a DLink Viper 2600 which is twice the combined link rate meaning that I can theoretically get up to 800Mbit/s on 2.4Ghz and 1,733Mbit/s on 5GHz which is more than enough for airlink.
 
