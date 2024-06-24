@@ -69,7 +69,6 @@ GEM
     tzinfo-data (1.2021.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
-    wdm (0.1.1)
     webrick (1.7.0)
 
 PLATFORMS
@@ -77,12 +76,12 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  eventmachine
   jekyll
   jekyll-paginate
   jekyll-relative-links
   jekyll-sitemap
   tzinfo-data (~> 1.2021)
-  wdm (>= 0.1.0)
   webrick
 
 BUNDLED WITH
