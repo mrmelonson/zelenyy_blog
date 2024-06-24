@@ -8,4 +8,3 @@ gem "eventmachine"
 
 # update ruby version
 gem 'webrick'
-bundle
